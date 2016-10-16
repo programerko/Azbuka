@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nikola.slova.SlovaActivity">
+
+    <RelativeLayout
+        android:id="@+id/pozadina_slova"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".5"
+        android:background="@drawable/background2"></RelativeLayout>
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="1">
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/slovo1"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_weight="1"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo1" />
+
+            <ImageView
+                android:id="@+id/slovo2"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_weight="1"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo2" />
+
+            <ImageView
+                android:id="@+id/slovo3"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_weight="1"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo3" />
+
+            <ImageView
+                android:id="@+id/slovo4"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_weight="1"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo4" />
+
+            <ImageView
+                android:id="@+id/slovo5"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_weight="1"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo5" />
+
+            <ImageView
+                android:id="@+id/slovo6"
+                android:layout_weight="1"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo6" />
+
+            <ImageView
+                android:id="@+id/slovo7"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_weight="1"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo7" />
+
+            <ImageView
+                android:id="@+id/slovo8"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_weight="1"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo8" />
+
+            <ImageView
+                android:id="@+id/slovo9"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_weight="1"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo9" />
+
+            <ImageView
+                android:id="@+id/slovo10"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_weight="1"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo10" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/slovo11"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_weight="1"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo11" />
+
+            <ImageView
+                android:id="@+id/slovo12"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_weight="1"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo12" />
+
+            <ImageView
+                android:id="@+id/slovo13"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_weight="1"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo13" />
+
+            <ImageView
+                android:id="@+id/slovo14"
+                android:layout_weight="1"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo14" />
+
+            <ImageView
+                android:id="@+id/slovo15"
+                android:layout_weight="1"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo15" />
+
+            <ImageView
+                android:id="@+id/slovo16"
+                android:layout_weight="1"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo16" />
+
+            <ImageView
+                android:id="@+id/slovo17"
+                android:layout_weight="1"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo17" />
+
+            <ImageView
+                android:id="@+id/slovo18"
+                android:layout_weight="1"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo18" />
+
+            <ImageView
+                android:id="@+id/slovo19"
+                android:layout_weight="1"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo19" />
+
+            <ImageView
+                android:id="@+id/slovo20"
+                android:layout_weight="1"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo20" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/slovo21"
+                android:layout_weight="1"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo21" />
+
+            <ImageView
+                android:id="@+id/slovo22"
+                android:layout_weight="1"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo22" />
+
+            <ImageView
+                android:id="@+id/slovo23"
+                android:layout_weight="1"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo23" />
+
+            <ImageView
+                android:id="@+id/slovo24"
+                android:layout_weight="1"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo24" />
+
+            <ImageView
+                android:id="@+id/slovo25"
+                android:layout_weight="1"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo25" />
+
+            <ImageView
+                android:id="@+id/slovo26"
+                android:layout_weight="1"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo26" />
+
+            <ImageView
+                android:id="@+id/slovo27"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_weight="1"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo27" />
+
+            <ImageView
+                android:id="@+id/slovo28"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_weight="1"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo28" />
+
+            <ImageView
+                android:id="@+id/slovo29"
+                android:layout_weight="1"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo29" />
+
+            <ImageView
+                android:id="@+id/slovo30"
+                android:layout_weight="1"
+                android:layout_width="@dimen/sirina_slova"
+                android:layout_height="@dimen/visina_slova"
+                android:src="@drawable/slovo30" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/prikazL"
+        android:visibility="gone"
+        android:background="@drawable/okvir"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/visina_slike"
+        android:layout_below="@+id/table"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+
+        <TextView
+
+            android:paddingLeft="8dp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:id="@+id/prikaz_txt"
+            android:textSize="20sp"
+            />
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+           >
+
+
+            <ImageView
+                android:padding="10dp"
+                android:id="@+id/prikaz_slova"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@android:drawable/btn_star"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <array name="slike">
+        <item>@drawable/slovo1</item>
+        <item>@drawable/slovo2</item>
+        <item>@drawable/slovo3</item>
+        <item>@drawable/slovo4</item>
+        <item>@drawable/slovo5</item>
+        <item>@drawable/slovo6</item>
+        <item>@drawable/slovo7</item>
+        <item>@drawable/slovo8</item>
+        <item>@drawable/slovo9</item>
+        <item>@drawable/slovo10</item>
+        <item>@drawable/slovo11</item>
+        <item>@drawable/slovo12</item>
+        <item>@drawable/slovo13</item>
+        <item>@drawable/slovo14</item>
+        <item>@drawable/slovo15</item>
+        <item>@drawable/slovo16</item>
+        <item>@drawable/slovo17</item>
+        <item>@drawable/slovo18</item>
+        <item>@drawable/slovo19</item>
+        <item>@drawable/slovo20</item>
+        <item>@drawable/slovo21</item>
+        <item>@drawable/slovo22</item>
+        <item>@drawable/slovo23</item>
+        <item>@drawable/slovo24</item>
+        <item>@drawable/slovo25</item>
+        <item>@drawable/slovo26</item>
+        <item>@drawable/slovo27</item>
+        <item>@drawable/slovo28</item>
+        <item>@drawable/slovo29</item>
+        <item>@drawable/slovo30</item>
+    </array>
+
+    <array name="slike_u_boji">
+        <item>@drawable/slovo91</item>
+        <item>@drawable/slovo92</item>
+        <item>@drawable/slovo93</item>
+        <item>@drawable/slovo94</item>
+        <item>@drawable/slovo95</item>
+        <item>@drawable/slovo96</item>
+        <item>@drawable/slovo97</item>
+        <item>@drawable/slovo98</item>
+        <item>@drawable/slovo99</item>
+        <item>@drawable/slovo100</item>
+        <item>@drawable/slovo101</item>
+        <item>@drawable/slovo102</item>
+        <item>@drawable/slovo103</item>
+        <item>@drawable/slovo104</item>
+        <item>@drawable/slovo105</item>
+        <item>@drawable/slovo106</item>
+        <item>@drawable/slovo107</item>
+        <item>@drawable/slovo108</item>
+        <item>@drawable/slovo109</item>
+        <item>@drawable/slovo110</item>
+        <item>@drawable/slovo111</item>
+        <item>@drawable/slovo112</item>
+        <item>@drawable/slovo113</item>
+        <item>@drawable/slovo114</item>
+        <item>@drawable/slovo115</item>
+        <item>@drawable/slovo116</item>
+        <item>@drawable/slovo117</item>
+        <item>@drawable/slovo118</item>
+        <item>@drawable/slovo119</item>
+        <item>@drawable/slovo120</item>
+    </array>
+
+    <array name="slike_slova">
+
+        <item>@drawable/slovo201</item>
+        <item>@drawable/slovo202</item>
+        <item>@drawable/slovo203</item>
+        <item>@drawable/slovo204</item>
+        <item>@drawable/slovo205</item>
+        <item>@drawable/slovo206</item>
+        <item>@drawable/slovo207</item>
+        <item>@drawable/slovo208</item>
+        <item>@drawable/slovo263</item>
+        <item>@drawable/slovo210</item>
+        <item>@drawable/slovo211</item>
+        <item>@drawable/slovo212</item>
+        <item>@drawable/slovo213</item>
+        <item>@drawable/slovo214</item>
+        <item>@drawable/slovo215</item>
+        <item>@drawable/slovo216</item>
+        <item>@drawable/slovo217</item>
+        <item>@drawable/slovo218</item>
+        <item>@drawable/slovo219</item>
+        <item>@drawable/slovo220</item>
+        <item>@drawable/slovo221</item>
+        <item>@drawable/slovo222</item>
+        <item>@drawable/slovo223</item>
+        <item>@drawable/slovo224</item>
+        <item>@drawable/slovo225</item>
+        <item>@drawable/slovo226</item>
+        <item>@drawable/slovo227</item>
+        <item>@drawable/slovo228</item>
+        <item>@drawable/slovo229</item>
+        <item>@drawable/slovo230</item>
+        <item>@drawable/slovo231</item>
+        <item>@drawable/slovo232</item>
+        <item>@drawable/slovo233</item>
+        <item>@drawable/slovo234</item>
+        <item>@drawable/slovo235</item>
+        <item>@drawable/slovo236</item>
+        <item>@drawable/slovo237</item>
+        <item>@drawable/slovo238</item>
+        <item>@drawable/slovo239</item>
+        <item>@drawable/slovo240</item>
+        <item>@drawable/slovo241</item>
+        <item>@drawable/slovo242</item>
+        <item>@drawable/slovo243</item>
+        <item>@drawable/slovo244</item>
+        <item>@drawable/slovo245</item>
+        <item>@drawable/slovo246</item>
+        <item>@drawable/slovo247</item>
+        <item>@drawable/slovo248</item>
+        <item>@drawable/slovo249</item>
+        <item>@drawable/slovo250</item>
+        <item>@drawable/slovo251</item>
+        <item>@drawable/slovo252</item>
+        <item>@drawable/slovo253</item>
+        <item>@drawable/slovo254</item>
+        <item>@drawable/slovo255</item>
+        <item>@drawable/slovo256</item>
+        <item>@drawable/slovo257</item>
+        <item>@drawable/slovo258</item>
+        <item>@drawable/slovo259</item>
+        <item>@drawable/slovo260</item>
+        <item>@drawable/slovo261</item>
+        <item>@drawable/slovo262</item>
+        <item>@drawable/slovo263</item>
+        <item>@drawable/slovo264</item>
+        <item>@drawable/slovo265</item>
+        <item>@drawable/slovo266</item>
+        <item>@drawable/slovo267</item>
+        <item>@drawable/slovo268</item>
+        <item>@drawable/slovo269</item>
+        <item>@drawable/slovo260</item>
+        <item>@drawable/slovo271</item>
+        <item>@drawable/slovo272</item>
+        <item>@drawable/slovo273</item>
+        <item>@drawable/slovo274</item>
+        <item>@drawable/slovo275</item>
+        <item>@drawable/slovo276</item>
+        <item>@drawable/slovo277</item>
+        <item>@drawable/slovo278</item>
+        <item>@drawable/slovo279</item>
+
+        </array>
+
+    <array name="zvuci_slova">
+        <item>@raw/rec_44s_1</item>
+        <item>@raw/rec_44s_2</item>
+        <item>@raw/rec_44s_3</item>
+        <item>@raw/rec_44s_4</item>
+        <item>@raw/rec_44s_5</item>
+        <item>@raw/rec_44s_6</item>
+        <item>@raw/rec_44s_7</item>
+        <item>@raw/rec_44s_8</item>
+        <item>@raw/rec_44s_9</item>
+        <item>@raw/rec_44s_10</item>
+        <item>@raw/rec_44s_11</item>
+        <item>@raw/rec_44s_12</item>
+        <item>@raw/rec_44s_13</item>
+        <item>@raw/rec_44s_14</item>
+        <item>@raw/rec_44s_15</item>
+        <item>@raw/rec_44s_16</item>
+        <item>@raw/rec_44s_17</item>
+        <item>@raw/rec_44s_18</item>
+        <item>@raw/rec_44s_19</item>
+        <item>@raw/rec_44s_20</item>
+        <item>@raw/rec_44s_21</item>
+        <item>@raw/rec_44s_22</item>
+        <item>@raw/rec_44s_23</item>
+        <item>@raw/rec_44s_24</item>
+        <item>@raw/rec_44s_25</item>
+        <item>@raw/rec_44s_26</item>
+        <item>@raw/rec_44s_27</item>
+        <item>@raw/rec_44s_28</item>
+        <item>@raw/rec_44s_29</item>
+        <item>@raw/rec_44s_30</item>
+    </array>
+
+    <array name="zvuci_reci">
+        <item>@raw/rec_138s_1</item>
+        <item>@raw/rec_138s_2</item>
+        <item>@raw/rec_138s_3</item>
+        <item>@raw/rec_138s_4</item>
+        <item>@raw/rec_138s_5</item>
+        <item>@raw/rec_138s_6</item>
+        <item>@raw/rec_138s_7</item>
+        <item>@raw/rec_138s_8</item>
+        <item>@raw/rec_138s_zub</item>
+        <item>@raw/rec_138s_10</item>
+        <item>@raw/rec_138s_11</item>
+        <item>@raw/rec_138s_12</item>
+        <item>@raw/rec_138s_13</item>
+        <item>@raw/rec_138s_14</item>
+        <item>@raw/rec_138s_15</item>
+        <item>@raw/rec_138s_16</item>
+        <item>@raw/rec_138s_17</item>
+        <item>@raw/rec_138s_18</item>
+        <item>@raw/rec_138s_19</item>
+        <item>@raw/rec_138s_20</item>
+        <item>@raw/rec_138s_21</item>
+        <item>@raw/rec_138s_22</item>
+        <item>@raw/rec_138s_23</item>
+        <item>@raw/rec_138s_24</item>
+        <item>@raw/rec_138s_25</item>
+        <item>@raw/rec_138s_26</item>
+        <item>@raw/rec_138s_27</item>
+        <item>@raw/rec_138s_28</item>
+        <item>@raw/rec_138s_29</item>
+        <item>@raw/rec_138s_30</item>
+        <item>@raw/rec_138s_30</item>
+        <item>@raw/rec_138s_31</item>
+        <item>@raw/rec_138s_32</item>
+        <item>@raw/rec_138s_33</item>
+        <item>@raw/rec_138s_34</item>
+        <item>@raw/rec_138s_35</item>
+        <item>@raw/rec_138s_36</item>
+        <item>@raw/rec_138s_37</item>
+        <item>@raw/rec_138s_38</item>
+        <item>@raw/rec_138s_39</item>
+        <item>@raw/rec_138s_40</item>
+        <item>@raw/rec_138s_41</item>
+        <item>@raw/rec_138s_42</item>
+        <item>@raw/rec_138s_43</item>
+        <item>@raw/rec_138s_44</item>
+        <item>@raw/rec_138s_45</item>
+        <item>@raw/rec_138s_46</item>
+        <item>@raw/rec_138s_47</item>
+        <item>@raw/rec_138s_48</item>
+        <item>@raw/rec_138s_49</item>
+        <item>@raw/rec_138s_50</item>
+        <item>@raw/rec_138s_51</item>
+        <item>@raw/rec_138s_52</item>
+        <item>@raw/rec_138s_53</item>
+        <item>@raw/rec_138s_54</item>
+        <item>@raw/rec_138s_55</item>
+        <item>@raw/rec_138s_56</item>
+        <item>@raw/rec_138s_57</item>
+        <item>@raw/rec_138s_58</item>
+        <item>@raw/rec_138s_59</item>
+        <item>@raw/rec_138s_60</item>
+        <item>@raw/rec_138s_61</item>
+
+        <item>@raw/rec_138s_62</item>
+        <item>@raw/rec_138s_zub</item>
+        <item>@raw/rec_138s_63</item>
+        <item>@raw/rec_138s_64</item>
+        <item>@raw/rec_138s_65</item>
+        <item>@raw/rec_138s_66</item>
+        <item>@raw/rec_138s_67</item>
+        <item>@raw/rec_138s_68</item>
+        <item>@raw/rec_138s_69</item>
+        <item>@raw/rec_138s_70</item>
+        <item>@raw/rec_138s_71</item>
+        <item>@raw/rec_138s_72</item>
+        <item>@raw/rec_138s_73</item>
+        <item>@raw/rec_138s_74</item>
+        <item>@raw/rec_138s_75</item>
+        <item>@raw/rec_138s_76</item>
+        <item>@raw/rec_138s_77</item>
+        <item>@raw/rec_138s_78</item>
+    </array>
+</resources>

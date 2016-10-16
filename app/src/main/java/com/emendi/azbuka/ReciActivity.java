@@ -1,6 +1,7 @@
-package com.example.nikola.slova;
+package com.emendi.azbuka;
 
 import android.content.res.TypedArray;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,7 +11,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class ReciActivity extends AppCompatActivity {
 
@@ -19,6 +19,9 @@ public class ReciActivity extends AppCompatActivity {
     Button nextBtn, playBtn;
     TypedArray slike;
     List<Rec> reci;
+    Rec trenutnaRec;
+    MediaPlayer trenutniZvuk;
+    TypedArray zvukrec ;
     int ir;
 
     @Override
@@ -34,8 +37,8 @@ public class ReciActivity extends AppCompatActivity {
         slike = getResources().obtainTypedArray(R.array.slike_slova);
         reci = new ArrayList<>();
 
-
-        String []slikeStr = {"Aвион","Балон","Ветар","Грожђе","Дрво","Ђак","Ексер","Жаба","Зуб",
+        zvukrec = getResources().obtainTypedArray(R.array.zvuci_reci);
+        final String []slikeStr = {"Aвион","Балон","Ветар","Грожђе","Дрво","Ђак","Ексер","Жаба","Зуб",
                 "Игла","Јабука","Кућа","Лист","Љуљашка","Мачка","Наочаре","Њива","Оловка","Паприка",
                 "Риба","Сунце","Телевизор","Ћурка","Удица","Филм","Хлеб","Ципела","Чаша","Џак","Шатор",
         "Лопта", "Ауто", "Птица", "Вода", "Облак", "Пуж", "Лав", "Књига", "Капа", "Столица", "Миш", "Телефон",
@@ -44,42 +47,41 @@ public class ReciActivity extends AppCompatActivity {
                 "Зуб", "Змај", "Бомбона","Њушка","Коњ", "Семафор", "Јастук", "Рак", "Фен", "Мост","Клупа",
         "Жбун","Снег","Киша","Муња","Замак","Двоглед"};
 
+        trenutniZvuk = MediaPlayer.create(ReciActivity.this, zvukrec.getResourceId(ir, 0));
+        trenutnaRec = new Rec(slikeStr[ir],slike.getDrawable(ir), trenutniZvuk);
 
-        for(int i=0; i < 79;i++)
-            reci.add(new Rec(slikeStr[i], slike.getDrawable(i), Objekti.zvuciReci.get(i) ));
 
 
-        textReci.setText(reci.get(0).getRec());
-        slikaReci.setImageDrawable(reci.get(0).getSlikaReci());
-        ir = 0;
+        textReci.setText(trenutnaRec.getRec());
+        slikaReci.setImageDrawable(trenutnaRec.getSlikaReci());
+
+
 
         nextBtn.setSoundEffectsEnabled(false);
         playBtn.setSoundEffectsEnabled(false);
         nextBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Random r = new Random();
-                ir = r.nextInt(79);
-                textReci.setText(reci.get(ir).getRec());
-                slikaReci.setImageDrawable(reci.get(ir).getSlikaReci());
+
+                trenutniZvuk.release();
+                ir++;
+                if(ir>78) ir= 0;
+                trenutniZvuk = MediaPlayer.create(ReciActivity.this, zvukrec.getResourceId(ir, 0));
+                trenutnaRec = new Rec(slikeStr[ir],slike.getDrawable(ir), trenutniZvuk);
+
+                textReci.setText(trenutnaRec.getRec());
+                slikaReci.setImageDrawable(trenutnaRec.getSlikaReci());
             }
         });
 
         playBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                reci.get(ir).getZvuk().start();
-
+                trenutnaRec.getZvuk().start();
+                System.out.println("RB : "+ir);
             }
         });
 
     }
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        // zvukReci.recycle();
-
-
-    }
 }

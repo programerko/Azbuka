@@ -70,7 +70,10 @@ public class SlovaActivity extends AppCompatActivity {
         }
 
         @Override public void onClick(final View v) {
+            try{
             tmpM.release();
+            }catch (Exception e){}
+
             tmpM = MediaPlayer.create(SlovaActivity.this, zvuciSlova.getResourceId(in, 0));
           ((ImageView) v).setImageDrawable(s.getChangeSlika());
             prikaz.setImageDrawable(s.getSlikaSlova());

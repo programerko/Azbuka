@@ -152,7 +152,7 @@
         <item>@drawable/slovo267</item>
         <item>@drawable/slovo268</item>
         <item>@drawable/slovo269</item>
-        <item>@drawable/slovo260</item>
+        <item>@drawable/slovo270</item>
         <item>@drawable/slovo271</item>
         <item>@drawable/slovo272</item>
         <item>@drawable/slovo273</item>
@@ -207,7 +207,7 @@
         <item>@raw/rec_138s_6</item>
         <item>@raw/rec_138s_7</item>
         <item>@raw/rec_138s_8</item>
-        <item>@raw/rec_138s_zub</item>
+        <item>@raw/rec_138s_9</item>
         <item>@raw/rec_138s_10</item>
         <item>@raw/rec_138s_11</item>
         <item>@raw/rec_138s_12</item>
@@ -261,9 +261,7 @@
         <item>@raw/rec_138s_59</item>
         <item>@raw/rec_138s_60</item>
         <item>@raw/rec_138s_61</item>
-
         <item>@raw/rec_138s_62</item>
-        <item>@raw/rec_138s_zub</item>
         <item>@raw/rec_138s_63</item>
         <item>@raw/rec_138s_64</item>
         <item>@raw/rec_138s_65</item>

@@ -5,4 +5,10 @@
     <dimen name="sirina_slova">0dp</dimen>
     <dimen name="visina_slova">100dp</dimen>
     <dimen name="visina_slike">250dp</dimen>
+    <dimen name="dugme_next_w">180dp</dimen>
+    <dimen name="dugme_next_h">100dp</dimen>
+    <dimen name="img_reci_w">300dp</dimen>
+    <dimen name="play_dugme">110dp</dimen>
+    <dimen name="font_reci">40sp</dimen>
+    <dimen name="slova_img_w">250dp</dimen>
 </resources>

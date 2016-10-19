@@ -3,12 +3,12 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="sirina_slova">0dp</dimen>
-    <dimen name="visina_slova">50dp</dimen>
-    <dimen name="visina_slike">150dp</dimen>
-    <dimen name="dugme_next_w">120dp</dimen>
-    <dimen name="dugme_next_h">70dp</dimen>
+    <dimen name="visina_slova">100dp</dimen>
+    <dimen name="visina_slike">250dp</dimen>
+    <dimen name="dugme_next_w">50dp</dimen>
+    <dimen name="dugme_next_h">200dp</dimen>
     <dimen name="img_reci_w">300dp</dimen>
-    <dimen name="play_dugme">120dp</dimen>
-    <dimen name="font_reci">50sp</dimen>
+    <dimen name="play_dugme">60dp</dimen>
+    <dimen name="font_reci">30sp</dimen>
     <dimen name="slova_img_w">250dp</dimen>
 </resources>

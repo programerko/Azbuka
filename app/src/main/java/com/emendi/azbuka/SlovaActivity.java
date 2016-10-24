@@ -2,6 +2,7 @@ package com.emendi.azbuka;
 
 import android.content.res.TypedArray;
 import android.media.MediaPlayer;
+import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -27,38 +28,10 @@ public class SlovaActivity extends AppCompatActivity {
         prikazLayout = (LinearLayout) findViewById(R.id.prikazL);
         prikaz = (ImageView) findViewById(R.id.prikaz_slova);
         prikazTxt = (TextView) findViewById(R.id.prikaz_txt);
-
-        String []slikeStr = {"Aвион","Балон","Ветар","Грожђе","Дрво","Ђак","Ексер","Жаба","Зец",
-                "Игла","Јабука","Кућа","Лист","Љуљашка","Мачка","Наочаре","Њива","Оловка","Паприка",
-                "Риба","Сунце","Телевизор","Ћурка","Удица","Филм","Хлеб","Ципела","Чаша","Џак","Шатор"};
-
-        TypedArray slike = getResources().obtainTypedArray(R.array.slike);
-        TypedArray slikeSlova = getResources().obtainTypedArray(R.array.slike_slova);
-        TypedArray slikeUBoji = getResources().obtainTypedArray(R.array.slike_u_boji);
         zvuciSlova = getResources().obtainTypedArray(R.array.zvuci_slova);
 
-        List<Slovo> slova = new ArrayList<>();
+        new LoadImageTask().execute("");
 
-        for(int i=0; i < 30;i++)
-            slova.add(new Slovo(
-                    slikeStr[i],
-                    slike.getDrawable(i),
-                    slikeUBoji.getDrawable(i),
-                    slikeSlova.getDrawable(i)));
-
-
-        int i = 0;
-        for(Slovo s: slova) {
-            ImageView imageView = (ImageView) findViewById(getResources().getIdentifier("slovo"+(1+i), "id",
-                    SlovaActivity.this.getPackageName()));
-            imageView.setSoundEffectsEnabled(false);
-            imageView.setOnClickListener(new ClickListener(s,i));
-            i++;
-        }
-
-        slike.recycle();
-        slikeSlova.recycle();
-        slikeUBoji.recycle();
     }
 
     public class ClickListener implements View.OnClickListener {
@@ -84,5 +57,38 @@ public class SlovaActivity extends AppCompatActivity {
         }
 
     }
+    private class LoadImageTask extends AsyncTask<String, Void, String> {
+        List<Slovo> slova = new ArrayList<>();
+        TypedArray slike = getResources().obtainTypedArray(R.array.slike);
+        TypedArray slikeSlova = getResources().obtainTypedArray(R.array.slike_slova);
+        TypedArray slikeUBoji = getResources().obtainTypedArray(R.array.slike_u_boji);
+        String []slikeStr = {"Aвион","Балон","Ветар","Грожђе","Дрво","Ђак","Ексер","Жаба","Зец",
+                "Игла","Јабука","Кућа","Лист","Љуљашка","Мачка","Наочаре","Њива","Оловка","Паприка",
+                "Риба","Сунце","Телевизор","Ћурка","Удица","Филм","Хлеб","Ципела","Чаша","Џак","Шатор"};
+        protected String doInBackground(String... urls) {
+            for(int i=0; i < 30;i++)
+                slova.add(new Slovo(
+                        slikeStr[i],
+                        slike.getDrawable(i),
+                        slikeUBoji.getDrawable(i),
+                        slikeSlova.getDrawable(i)));
+            slike.recycle();
+            slikeSlova.recycle();
+            slikeUBoji.recycle();
+            return "";
+        }
 
-}
+        /** The system calls this to perform work in the UI thread and delivers
+         * the result from doInBackground() */
+        protected void onPostExecute(String result) {
+            int i = 0;
+            for(Slovo s: slova) {
+                ImageView imageView = (ImageView) findViewById(getResources().getIdentifier("slovo"+(1+i), "id",
+                        SlovaActivity.this.getPackageName()));
+                imageView.setSoundEffectsEnabled(false);
+                imageView.setOnClickListener(new ClickListener(s,i));
+                i++;
+        }
+    }
+
+}}
